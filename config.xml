@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="kl.phonegap.notif" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Notif</name>
+    <description>
+        A blank PhoneGap app.
+    </description>
+    <author email="support@phonegap.com" href="http://phonegap.com">
+        PhoneGap Team
+    </author>
+	
+	
+<plugin name="de.appplant.cordova.plugin.local-notification" spec="https://github.com/shabetya/cordova-plugin-local-notifications" source="git" />
+
+	
+	<config-file platform="android" parent="/manifest">
+    <uses-sdk tools:overrideLibrary="org.apache.cordova,com.library.plugin" />
+</config-file>
+	
+    <content src="index.html" />
+    <access origin="*" />
+</widget>
